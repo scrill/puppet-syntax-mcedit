@@ -37,11 +37,11 @@ context default
 
 # Variables
 
-  keyword wholeright $+\:\:+\:\:+\:\:+\:\:+ brightgreen
-  keyword wholeright $+\:\:+\:\:+\:\:+ brightgreen
-  keyword wholeright $+\:\:+\:\:+ brightgreen
-  keyword wholeright $+\:\:+ brightgreen
-  keyword wholeright $+ brightgreen
+  keyword wholeright $+\:\:+\:\:+\:\:+\:\:+ white
+  keyword wholeright $+\:\:+\:\:+\:\:+ white
+  keyword wholeright $+\:\:+\:\:+ white
+  keyword wholeright $+\:\:+ white
+  keyword wholeright $+ white
 
 # Parameters
 
@@ -475,22 +475,24 @@ context default
 
 # Reserved words
 
-  keyword whole absent white
-  keyword whole and white
-  keyword whole case white
-  keyword whole class white
-  keyword whole default white
-  keyword whole define white
-  keyword whole directory white
-  keyword whole else white
-  keyword whole if white
-  keyword whole inherits white
-  keyword whole installed white
-  keyword whole latest white
-  keyword whole link white
-  keyword whole or white
-  keyword whole present white
-  keyword whole running white
+  keyword whole absent yellow
+  keyword whole and yellow
+  keyword whole case yellow
+  keyword whole class yellow
+  keyword whole default yellow
+  keyword whole define yellow
+  keyword whole directory yellow
+  keyword whole else yellow
+  keyword whole elsif yellow
+  keyword whole if yellow
+  keyword whole inherits yellow
+  keyword whole installed yellow
+  keyword whole latest yellow
+  keyword whole link yellow
+  keyword whole on_failure yellow
+  keyword whole or yellow
+  keyword whole present yellow
+  keyword whole running yellow
   
 # Other contexts
 
@@ -500,12 +502,12 @@ context # \n brown
 context " " green
   keyword \\" brightgreen
   keyword \\\\ brightgreen
-  keyword wholeright ${+\:\:+\:\:+\:\:+\:\:+} brightgreen
-  keyword wholeright ${+\:\:+\:\:+\:\:+} brightgreen
-  keyword wholeright ${+\:\:+\:\:+} brightgreen
-  keyword wholeright ${+\:\:+} brightgreen
-  keyword wholeright ${+} brightgreen
-  keyword wholeright $+ brightgreen
+  keyword wholeright ${+\:\:+\:\:+\:\:+\:\:+} white
+  keyword wholeright ${+\:\:+\:\:+\:\:+} white
+  keyword wholeright ${+\:\:+\:\:+} white
+  keyword wholeright ${+\:\:+} white
+  keyword wholeright ${+} white
+  keyword wholeright $+ white
 
 context ' ' brightgreen
   keyword \\' green
