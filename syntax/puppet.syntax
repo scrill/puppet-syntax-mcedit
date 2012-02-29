@@ -454,7 +454,6 @@ context default
   keyword whole file brightred
   keyword whole fqdn_rand brightred
   keyword whole generate brightred
-  keyword whole include brightred
   keyword whole info brightred
   keyword whole inline_template brightred
   keyword whole md5 brightred
@@ -485,6 +484,7 @@ context default
   keyword whole else yellow
   keyword whole elsif yellow
   keyword whole if yellow
+  keyword whole include yellow
   keyword whole inherits yellow
   keyword whole installed yellow
   keyword whole latest yellow
