@@ -489,11 +489,12 @@ context default
   keyword whole installed yellow
   keyword whole latest yellow
   keyword whole link yellow
+  keyword whole node yellow
   keyword whole on_failure yellow
   keyword whole or yellow
   keyword whole present yellow
   keyword whole running yellow
-  
+
 # Other contexts
 
 context # \n brown
